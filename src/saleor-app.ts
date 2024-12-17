@@ -24,6 +24,7 @@ switch (process.env.APL) {
      * pnpm i @vercel/kv
      */
     apl = new VercelKvApl();
+    break;
   case "upstash":
     // Require `UPSTASH_URL` and `UPSTASH_TOKEN` environment variables
     apl = new UpstashAPL();
